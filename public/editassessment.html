@@ -1,0 +1,55 @@
+<html>
+<head>
+  <meta name ="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Coursework2_WebApp Edit Assessment</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+<body>
+
+  <header>
+    <h1>Web Application Development Coursework 2 - Edit an existing Assessment</h1>
+    <div id="navbar">
+      <nav>
+        <button id="home"><a href="index.html">Home</a></button>
+        <button id="degrees"><a href="degree.html">Degree Programmes</a></button>
+        <button id="modules"><a href="module.html">Modules</a></button>
+        <button id="assessmentsactive"><a href="assessment.html">Assessments</a></button>
+      </nav>
+    </div>
+    <form id="editassessmentform">
+        <div>
+          <label>Enter Updated Assessment Number</label>
+          <input type="number" name="editedassessmentnumber" />
+        </div>
+        <div>
+            <label>Enter Updated Assessment Name</label>
+            <input type="text" name="editedassessmentname" />
+        </div>
+        <div>
+            <label>Enter Updated Assessment Learning Objectives Covered</label>
+            <input type="text" name="editedassessmentlos" />
+        </div>
+        <div>
+            <label>Enter Updated Assessment Volume</label>
+            <input type="text" name="editedassessmentvolume" />
+        </div>
+        <div>
+            <label>Enter Updated Assessment Weight</label>
+            <input type="text" name="editedassessmentweight" />
+        </div>
+        <div>
+          <label>Enter Updated Assessment Deadline</label>
+          <input type="datetime-local" name="editedassessmentdeadline" />
+        </div>
+        <div>
+            <label>Enter Updated Modules Assessment is Assigned to</label>
+            <input type="text" name="editedassessmentmodules" />
+        </div>
+        <div>
+          <input type="submit" value="Submit" />
+          <input type="reset" value="Reset" />
+        </div>
+      </form>
+  <script src="main.js"></script>
+</body>
+</html>

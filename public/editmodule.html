@@ -1,0 +1,64 @@
+<html>
+<head>
+  <meta name ="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Coursework2_WebApp Edit Module</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+<body>
+
+  <header>
+    <h1>Web Application Development Coursework 2 - Edit an Existing Module</h1>
+    <div id="navbar">
+      <nav>
+        <button id="home"><a href="index.html">Home</a></button>
+        <button id="degrees"><a href="degree.html">Degree Programmes</a></button>
+        <button id="modulesactive"><a href="module.html">Modules</a></button>
+        <button id="assessments"><a href="assessment.html">Assessments</a></button>
+      </nav>
+    </div>
+    <form id="editmoduleform">
+        <div>
+          <label>Enter Updated Module Number</label>
+          <input type="number" name="editedmodulenumber" />
+        </div>
+        <div>
+            <label>Enter Updated Module Name</label>
+            <input type="text" name="editedmodulename" />
+        </div>
+        <div>
+            <label>Enter Updated Number of Hours</label>
+            <input type="number" name="editedmodulenumhrs" />
+        </div>
+        <div>
+            <label>Enter Updated Module Learning Objectives</label>
+            <input type="text" name="editedmodulelos" />
+        </div>
+        <div>
+            <label>Enter Updated Number of Credits</label>
+            <input type="number" name="editedmodulenumcredits" />
+        </div>
+        <div>
+          <label>Enter Updated Module Leader</label>
+          <input type="text" name="editedmoduleleader" />
+        </div>
+        <div>
+            <label>Enter Updated Module Start Date</label>
+            <input type="datetime-local" name="editedmodulestartdate" />
+        </div>
+        <div>
+          <label>Enter Updated Value Of If Module Timeslots Regular</label>
+          <input type="checkbox" name="editedmoduleregtime" />
+          <label>Yes</label>
+        </div>
+        <div>
+          <label>Enter Updated Degrees Module is Assigned to</label>
+          <input type="text" name="editedmoduledegreesassignedto" />
+        </div>
+        <div>
+          <input type="submit" value="Submit" />
+          <input type="reset" value="Reset" />
+        </div>
+      </form>
+  <script src="main.js"></script>
+</body>
+</html>

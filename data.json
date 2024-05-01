@@ -1,0 +1,54 @@
+{
+
+  "trainers": [
+    {
+        "id" : "001",
+        "name": "Dan",
+        "route": "4"
+    },
+    {
+        "id" : "002",
+        "name": "Harley",
+        "route": "3"
+    },
+    {
+      "id" : "003",
+      "name": "Leia",
+      "route": "3"
+    }
+  ],
+  "modules":
+    [
+      {
+        "Name": "Undergraduate",
+        "Course":"Web Development",
+        "Module": {
+          "Learning_outcomes":["LO1", "LO2"],
+          "Assignment":["CW1", "CW2"],
+          "Volume":["1000 words", "4000 words"],
+          "weights":["20%", "80%"]
+        }
+      },
+      {
+        "Name": "Post-Graduate",
+        "Course":"Big Data",
+        "Module": {
+        "Learning_outcomes":["LO1", "LO2"],
+        "Assignment":["CW1", "CW2"],
+        "Volume":["1000 words", "4000 words"],
+        "weights":["20%", "80%"]
+        }
+      },
+      {
+        "Name": "Research",
+        "Course":"Data Mining",
+        "Module": {
+          "Learning_outcomes":["LO1", "LO2"],
+          "Assignment":["CW1", "CW2"],
+          "Volume":["1000 words", "4000 words"],
+          "weights":["20%", "80%"]
+        }
+      }
+      
+    ]
+}

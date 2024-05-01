@@ -1,0 +1,55 @@
+<html>
+<head>
+  <meta name ="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Coursework2_WebApp Create Assessment</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+<body>
+
+  <header>
+    <h1>Web Application Development Coursework 2 - Create a new Assessment</h1>
+    <div id="navbar">
+      <nav>
+        <button id="home"><a href="index.html">Home</a></button>
+        <button id="degrees"><a href="degree.html">Degree Programmes</a></button>
+        <button id="modules"><a href="module.html">Modules</a></button>
+        <button id="assessmentsactive"><a href="assessment.html">Assessments</a></button>
+      </nav>
+    </div>
+    <form id="createassessmentform">
+        <div>
+          <label>Enter Assessment Number</label>
+          <input type="number" name="assessmentnumber" />
+        </div>
+        <div>
+            <label>Enter Assessment Name</label>
+            <input type="text" name="assessmentname" />
+        </div>
+        <div>
+            <label>Enter Assessment Learning Objectives Covered</label>
+            <input type="text" name="assessmentlos" />
+        </div>
+        <div>
+            <label>Enter Assessment Volume</label>
+            <input type="text" name="assessmentvolume" />
+        </div>
+        <div>
+            <label>Enter Assessment Weight</label>
+            <input type="text" name="assessmentweight" />
+        </div>
+        <div>
+          <label>Enter Assessment Deadline</label>
+          <input type="datetime-local" name="assessmentdeadline" />
+        </div>
+        <div>
+            <label>Enter Modules Assessment is Assigned to</label>
+            <input type="text" name="assessmentmodules" />
+        </div>
+        <div>
+          <input type="submit" value="Submit" />
+          <input type="reset" value="Reset" />
+        </div>
+      </form>
+  <script src="createassessment.js"></script>
+</body>
+</html>

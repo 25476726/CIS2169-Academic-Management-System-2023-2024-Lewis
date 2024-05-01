@@ -1,0 +1,4 @@
+{
+    "/trainer/": "/trainers?q=", 
+    "/trainer/id/:id": "/trainers?id=:id"
+}

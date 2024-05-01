@@ -1,0 +1,59 @@
+[
+    {
+      "DegreeID": "1",
+      "Name": "Accessible Web Design and Development",
+      "Los":"design websites",
+      "Awards":"BSc in Web Design and Development",
+      "Programme_leader":"David Walsh and Dan Campbell",
+      "Start_date": "01/01/2000",
+      "Modules": {
+        "Learning_outcomes":["LO1", "LO2"],
+        "Assignment":["CW1", "CW2"],
+        "Volume":["1000 words", "4000 words"],
+        "weights":["20%", "80%"]
+      }
+    },
+    {
+        "DegreeID": "2",
+        "Name": "ITMB",
+        "Los":"use cisco packet tracer to design belter networks",
+        "Awards":"BSc in ITMB",
+        "Programme_leader":"Collette Gavan and Shirley Hunter Barnett",
+        "Start_date": "01/01/2000",
+        "Modules": {
+          "Learning_outcomes":["LO1", "LO2"],
+          "Assignment":["CW1", "CW2"],
+          "Volume":["1000 words", "4000 words"],
+          "weights":["20%", "80%"]
+        }
+      },
+      {
+          "DegreeID": "3",
+          "Name": "Data Science",
+          "Los":"do maths stuff",
+          "Awards":"BSc in Data Science",
+          "Programme_leader":"Marcello Trovati",
+          "Start_date": "01/01/2000",
+          "Modules": {
+            "Learning_outcomes":["LO1", "LO2"],
+            "Assignment":["CW1", "CW2"],
+            "Volume":["1000 words", "4000 words"],
+            "weights":["20%", "80%"]
+          }
+        }
+        ,
+      {
+          "DegreeID": "4",
+          "Name": "Programming",
+          "Los":"design code about how to save spaceships and other mad stuff",
+          "Awards":"BSc in Programming",
+          "Programme_leader":"Mohsin Raza",
+          "Start_date": "01/01/2000",
+          "Modules": {
+            "Learning_outcomes":["LO1", "LO2"],
+            "Assignment":["CW1", "CW2"],
+            "Volume":["1000 words", "4000 words"],
+            "weights":["20%", "80%"]
+          }
+        }
+]

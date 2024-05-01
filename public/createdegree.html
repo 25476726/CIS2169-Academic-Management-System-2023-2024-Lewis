@@ -1,0 +1,55 @@
+<html>
+<head>
+  <meta name ="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Coursework2_WebApp Create Degree</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+<body>
+
+  <header>
+    <h1>Web Application Development Coursework 2 - Create a new Degree</h1>
+    <div id="navbar">
+      <nav>
+        <button id="home"><a href="index.html">Home</a></button>
+        <button id="degreesactive"><a href="degree.html">Degree Programmes</a></button>
+        <button id="modules"><a href="module.html">Modules</a></button>
+        <button id="assessments"><a href="assessment.html">Assessments</a></button>
+      </nav>
+    </div>
+    <form id="createdegreeform">
+        <div>
+          <label>Enter Degree Number</label>
+          <input type="number" name="degreeidnumber" />
+        </div>
+        <div>
+            <label>Enter Degree Name</label>
+            <input type="text" name="degreename" />
+        </div>
+        <div>
+            <label>Enter Degree Learning Objectives</label>
+            <input type="text" name="degreelos" />
+        </div>
+        <div>
+            <label>Enter Degree Exit Awards</label>
+            <input type="text" name="degreeexitawards" />
+        </div>
+        <div>
+            <label>Enter Degree Programme Leader</label>
+            <input type="text" name="degreeprogleader" />
+        </div>
+        <div>
+          <label>Enter Degree Start Date</label>
+          <input type="datetime-local" name="degreestartdate" />
+        </div>
+        <div>
+            <label>Enter Degree Modules Assigned</label>
+            <input type="text" name="degreemodules" />
+        </div>
+        <div>
+          <input type="submit" value="Submit" />
+          <input type="reset" value="Reset" />
+        </div>
+      </form>
+  <script src="createdegree.js"></script>
+</body>
+</html>

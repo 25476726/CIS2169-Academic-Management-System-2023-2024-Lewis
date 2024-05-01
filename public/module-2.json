@@ -1,0 +1,52 @@
+[
+  {
+    "Name": "Undergraduate",
+    "Course":"Web Development",
+    "Module": {
+      "Num_hours": "16",
+      "Num_credits": "20",
+      "Module_leader": "Dave",
+      "Module_start": "01/01/2002",
+      "Reg_times": "Yes",
+      "Degrees_assigned": "web dnd",
+      "Learning_outcomes":["LO1", "LO2"],
+      "Assignment":["CW1", "CW2"],
+      "Volume":["1000 words", "4000 words"],
+      "weights":["20%", "80%"]
+    }
+  },
+  {
+    "Name": "Post-Graduate",
+    "Course":"Big Data",
+    "Module": {
+      "Num_hours": "16",
+      "Num_credits": "20",
+      "Module_leader": "Dave",
+      "Module_start": "01/01/2002",
+      "Reg_times": "Yes",
+      "Degrees_assigned": "web dnd",
+      "Learning_outcomes":["LO1", "LO2"],
+      "Assignment":["CW1", "CW2"],
+      "Volume":["1000 words", "4000 words"],
+      "weights":["20%", "80%"]
+    }
+  },
+  {
+    "Name": "Research",
+    "Course":"Data Mining",
+    "Module": {
+      "Num_hours": "16",
+      "Num_credits": "20",
+      "Module_leader": "Dave",
+      "Module_start": "01/01/2002",
+      "Reg_times": "Yes",
+      "Degrees_assigned": "web dnd",
+      "Learning_outcomes":["LO1", "LO2"],
+      "Assignment":["CW1", "CW2"],
+      "Volume":["1000 words", "4000 words"],
+      "weights":["20%", "80%"]
+    }
+  }
+  
+]
+  

@@ -1,0 +1,55 @@
+<html>
+<head>
+  <meta name ="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Coursework2_WebApp Edit Degree</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+<body>
+
+  <header>
+    <h1>Web Application Development Coursework 2 - Edit an Existing Degree</h1>
+    <div id="navbar">
+      <nav>
+        <button id="home"><a href="index.html">Home</a></button>
+        <button id="degreesactive"><a href="degree.html">Degree Programmes</a></button>
+        <button id="modules"><a href="module.html">Modules</a></button>
+        <button id="assessments"><a href="assessment.html">Assessments</a></button>
+      </nav>
+    </div>
+    <form id="editdegreeform">
+        <div>
+          <label>Enter Updated Degree ID Number</label>
+          <input type="number" name="editeddegreeidnumber" />
+        </div>
+        <div>
+            <label>Enter Updated Degree Name</label>
+            <input type="text" name="editeddegreename" />
+        </div>
+        <div>
+            <label>Enter Updated Degree Learning Objectives</label>
+            <input type="text" name="editeddegreelos" />
+        </div>
+        <div>
+            <label>Enter Updated Degree Exit Awards</label>
+            <input type="text" name="editeddegreeexitawards" />
+        </div>
+        <div>
+            <label>Enter Updated Degree Programme Leader</label>
+            <input type="text" name="editeddegreeprogleader" />
+        </div>
+        <div>
+          <label>Enter Updated Degree Start Date</label>
+          <input type="datetime-local" name="editeddegreestartdate" />
+        </div>
+        <div>
+            <label>Enter Updated Degree Modules Assigned</label>
+            <input type="text" name="editeddegreemodules" />
+        </div>
+        <div>
+          <input type="submit" value="Submit" />
+          <input type="reset" value="Reset" />
+        </div>
+      </form>
+  <script src="main.js"></script>
+</body>
+</html>

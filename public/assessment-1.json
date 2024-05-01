@@ -1,0 +1,38 @@
+[
+    {
+      "Assessmentnumber": "1",
+      "Assessmenttitle": "Robot Juice",
+      "Loscovered":"design websites",
+      "Volume":"4000 words",
+      "Weighting":"80%",
+      "Deadline":"28th of April 2023",
+      "Modules": "Accessible Web Design and Development"
+    },
+    {
+        "Assessmentnumber": "2",
+        "Assessmenttitle": "ABC Limited",
+        "Loscovered":"design a network that catches fire in cisco packet tracer",
+        "Volume":"4000 words",
+        "Weighting":"30%",
+        "Deadline":"24th of April 2023",
+        "Modules": "Digital World"
+      },
+      {
+        "Assessmentnumber": "3",
+        "Assessmenttitle": "Edge Hill Coffee",
+        "Loscovered":"watch the entire 19 minute coffee fella interview",
+        "Volume":"4000 words",
+        "Weighting":"60%",
+        "Deadline":"10th of January 2023",
+        "Modules": "Digital World"
+      },
+      {
+        "Assessmentnumber": "4",
+        "Assessmenttitle": "Java Calculator",
+        "Loscovered":"design a calculator in java that can devide by 0",
+        "Volume":"4000 words",
+        "Weighting":"60%",
+        "Deadline":"7th of may 2023",
+        "Modules": "Programming"
+      }
+]
