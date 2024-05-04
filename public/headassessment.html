@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Assessments</title><!--Academic staff see this page-->
+    <title>Assessments</title><!--same as other academic assessments page except nav bar links-->
 </head>
 <body>
     <header>
         <h1>Web Application Development Coursework 2 - Assessments</h1>
-        <h2>You are currently logged in as an Academic Staff Member</h2>
+        <h2>You are currently logged in as a Head of Department</h2>
         <div id="navbar">
           <nav>
             <button id="home"><a href="index.html">Home</a></button>
             <button id="login"><a href="login.html">Log Out</a></button>
-            <button id="degrees"><a href="degree.html">Degree Programmes</a></button>
-            <button id="modules"><a href="module.html">Modules</a></button>
-            <button id="assessmentsactive"><a href="assessment.html">Assessments</a></button><!--different class to make button green to indicate that it is selected-->
+            <button id="degrees"><a href="headdegree.html">Degree Programmes</a></button>
+            <button id="modules"><a href="headmodule.html">Modules</a></button>
+            <button id="assessmentsactive"><a href="headassessment.html">Assessments</a></button>
           </nav>
         </div>
       </header>
@@ -24,9 +24,9 @@
         <h2>Assessments</h2>
       <button id ="createassessmentbtn"><a href="createassessment.html">Create a new Assessment</a></button>
       <button id ="editassessmentbtn"><a href="editassessment.html">Edit an existing Assessment</a></button>
-      <button id ="btn">Show all current Assessments</button><!--pulls in the json assessments data-->
+      <button id ="btn">Show all current Assessments</button>
       </div>
       <div id="assessment-info"></div>  <!--  where json module data is to be displayed -->
-      <script src="assessment.js"></script><!--link to js responsible for pulling the assessments json data-->
+      <script src="assessment.js"></script>
 </body>
 </html>

@@ -4,29 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Modules</title><!--academic stfaf module page-->
+    <title>Modules</title>
 </head>
 <body>
     <header>
-        <h1>Web Application Development Coursework 2 - Modules</h1>
-        <h2>You are currently logged in as an Academic Staff Member</h2>
+        <h1>Web Application Development Coursework 2 - Head of Department Modules</h1>
+        <h2>You are currently logged in as a Head of Department</h2>
         <div id="navbar">
           <nav>
             <button id="home"><a href="index.html">Home</a></button>
             <button id="login"><a href="login.html">Log Out</a></button>
-            <button id="degrees"><a href="degree.html">Degree Programmes</a></button>
-            <button id="modulesactive"><a href="module.html">Modules</a></button><!--active class make button green-->
-            <button id="assessments"><a href="assessment.html">Assessments</a></button>
+            <button id="degrees"><a href="headdegree.html">Degree Programmes</a></button>
+            <button id="modulesactive"><a href="headmodule.html">Modules</a></button>
+            <button id="assessments"><a href="headassessment.html">Assessments</a></button>
           </nav>
         </div>
       </header>
     <div>
-        <h2>Modules</h2>
+        <h2>Modules</h2><!--only difference compared to academic module page is the addition of the assign module time slots button.-->
       <button id ="createmodulebtn"><a href="createmodule.html">Create a new Module</a></button>
       <button id ="editmodulebtn"><a href="editmodule.html">Edit an existing Module</a></button>
-      <button id ="btn">Show all current Modules</button><!--calls js function to pull json module data-->
+      <button id ="schedulemodulebtn"><a href="schedulemodule.html">Assign a Module's Time Slots and Room</a></button>
+      <button id ="btn">Show all current Modules</button>
       </div>
       <div id="module-info"></div>  <!--  where json module data is to be displayed -->
       <script src="main.js"></script>
 </body>
-</html> 
+</html>

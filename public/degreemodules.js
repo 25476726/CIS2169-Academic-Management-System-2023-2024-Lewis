@@ -1,6 +1,6 @@
 var pageCounter = 1;
 var moduleContainer = document.getElementById('degree-module-info');
-var btn = document.getElementById("modbtn");
+var btn = document.getElementById("modbtn");//this js wasnt used, it was mean to display all modules assigned to a certain degree, it is nearly identical to modules js function
 
 modbtn.addEventListener("click", function(){
   var ourRequest = new XMLHttpRequest();

@@ -1,8 +1,8 @@
 var pageCounter = 1;
 var moduleContainer = document.getElementById('module-info');
-var btn = document.getElementById("btn");//finds button in module info seciton
+var btn = document.getElementById("btn");
 
-btn.addEventListener("click", function(){//when button is clicked, all modules are displayed
+btn.addEventListener("click", function(){
   var ourRequest = new XMLHttpRequest();
   ourRequest.open('GET', 'module-'+ pageCounter +'.json');
   ourRequest.onload = function(){
@@ -16,12 +16,12 @@ pageCounter++;
 if (pageCounter > 1){
 //btn.classList.add("hide-me");
   btn.disabled = true;
-}//disables button after it is pressed
+}
 });
 
 function renderHTML(data){
   var htmlString = "";
-  htmlString += "<h1>Module Information:</h1>";//displayes module data in a formatted html string.
+  htmlString += "<h1>Module Information:</h1>";
   for(i = 0; i < data.length; i++){
     htmlString += "<p>" + data[i].Course + " is an " + data[i].Name + " Module. It has assements "; //".</p>";
     for(ii = 0; ii < data[i].Module.Assignment.length; ii++){

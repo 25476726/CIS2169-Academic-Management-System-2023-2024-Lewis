@@ -3,17 +3,17 @@
   <meta name ="viewport" content="width=device-width, initial-scale=1"/>
     <title>Coursework2_WebApp Create Degree</title>
     <link rel="stylesheet" href="css/styles.css">
-  </head>
+  </head><!--this page is for academic staff to create a new degree-->
 <body>
 
   <header>
     <h1>Web Application Development Coursework 2 - Create a new Degree</h1>
+    <h2>You are currently logged in as an Academic Staff Member</h2>
     <div id="navbar">
       <nav>
         <button id="home"><a href="index.html">Home</a></button>
-        <button id="degreesactive"><a href="degree.html">Degree Programmes</a></button>
-        <button id="modules"><a href="module.html">Modules</a></button>
-        <button id="assessments"><a href="assessment.html">Assessments</a></button>
+        <button id="login"><a href="login.html">Log Out</a></button>
+        <button id="degrees"><a href="degree.html">Back to Degree Programmes</a></button>
       </nav>
     </div>
     <form id="createdegreeform">
@@ -46,8 +46,8 @@
             <input type="text" name="degreemodules" />
         </div>
         <div>
-          <input type="submit" value="Submit" />
-          <input type="reset" value="Reset" />
+          <input type="submit" value="Submit" /><!--calls js method to turn data to json and print to console-->
+          <input type="reset" value="Reset" /><!--resets all values-->
         </div>
       </form>
   <script src="createdegree.js"></script>

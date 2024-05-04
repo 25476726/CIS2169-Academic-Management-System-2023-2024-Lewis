@@ -18,37 +18,212 @@
     }
   ],
   "modules":
-    [
-      {
-        "Name": "Undergraduate",
-        "Course":"Web Development",
-        "Module": {
-          "Learning_outcomes":["LO1", "LO2"],
-          "Assignment":["CW1", "CW2"],
-          "Volume":["1000 words", "4000 words"],
-          "weights":["20%", "80%"]
-        }
-      },
-      {
-        "Name": "Post-Graduate",
-        "Course":"Big Data",
-        "Module": {
+  [
+    {
+      "Name": "Undergraduate",
+      "Course":"Digital World",
+      "Module": {
+        "Num_hours": "16",
+        "Num_credits": "20",
+        "Module_leader": "Shirley",
+        "Module_start": "01/01/2022",
+        "Reg_times": "Yes",
+        "Degrees_assigned": "web dnd",
+        "Learning_outcomes":["LO1", "LO2"],
+        "Assignment":["CW1", "CW2"],
+        "Volume":["1000 words", "4000 words"],
+        "weights":["40%", "60%"]
+      }
+    },
+    {
+      "Name": "Undergraduate",
+      "Course":"Accessible Web Design and Development",
+      "Module": {
+        "Num_hours": "16",
+        "Num_credits": "20",
+        "Module_leader": "Dave and Dan",
+        "Module_start": "01/01/2022",
+        "Reg_times": "Yes",
+        "Degrees_assigned": "web dnd",
+        "Learning_outcomes":["LO1", "LO2"],
+        "Assignment":["CW1", "CW2"],
+        "Volume":["1000 words", "4000 words"],
+        "weights":["40%", "60%"]
+      }
+    },
+    {
+      "Name": "Undergraduate",
+      "Course":"Programming",
+      "Module": {
+        "Num_hours": "16",
+        "Num_credits": "20",
+        "Module_leader": "Mohsin Raza",
+        "Module_start": "01/01/2022",
+        "Reg_times": "Yes",
+        "Degrees_assigned": "web dnd",
+        "Learning_outcomes":["LO1", "LO2"],
+        "Assignment":["CW1", "CW2"],
+        "Volume":["1000 words", "4000 words"],
+        "weights":["40%", "60%"]
+      }
+    },
+    {
+      "Name": "Undergraduate",
+      "Course":"Web Development",
+      "Module": {
+        "Num_hours": "16",
+        "Num_credits": "20",
+        "Module_leader": "Dave",
+        "Module_start": "01/01/2002",
+        "Reg_times": "Yes",
+        "Degrees_assigned": "web dnd",
         "Learning_outcomes":["LO1", "LO2"],
         "Assignment":["CW1", "CW2"],
         "Volume":["1000 words", "4000 words"],
         "weights":["20%", "80%"]
+      }
+    },
+    {
+      "Name": "Post-Graduate",
+      "Course":"Big Data",
+      "Module": {
+        "Num_hours": "16",
+        "Num_credits": "20",
+        "Module_leader": "Dave",
+        "Module_start": "01/01/2002",
+        "Reg_times": "Yes",
+        "Degrees_assigned": "web dnd",
+        "Learning_outcomes":["LO1", "LO2"],
+        "Assignment":["CW1", "CW2"],
+        "Volume":["1000 words", "4000 words"],
+        "weights":["20%", "80%"]
+      }
+    },
+    {
+      "Name": "Research",
+      "Course":"Data Mining",
+      "Module": {
+        "Num_hours": "16",
+        "Num_credits": "20",
+        "Module_leader": "Dave",
+        "Module_start": "01/01/2002",
+        "Reg_times": "Yes",
+        "Degrees_assigned": "web dnd",
+        "Learning_outcomes":["LO1", "LO2"],
+        "Assignment":["CW1", "CW2"],
+        "Volume":["1000 words", "4000 words"],
+        "weights":["20%", "80%"]
+      }
+    }
+    
+  ],
+  "Degrees":
+  [
+    {
+      "DegreeID": "1",
+      "Name": "Analytics and Web Design and Development",
+      "Los":"design websites",
+      "Awards":"BSc in Web Design and Development",
+      "Programme_leader":"David Walsh and Dan Campbell",
+      "Start_date": "24/09/2024",
+      "Modules": {
+        "Learning_outcomes":["LO1", "LO2"],
+        "Assignment":["Robot Juice", "JB Cars"],
+        "Volume":["4000 words", "2000 words"],
+        "weights":["80%", "20%"]
+      }
+    },
+    {
+        "DegreeID": "2",
+        "Name": "ITMB",
+        "Los":"use cisco packet tracer to design belter networks",
+        "Awards":"BSc in ITMB",
+        "Programme_leader":"Collette Gavan and Shirley Hunter Barnett",
+        "Start_date": "25/09/2024",
+        "Modules": {
+          "Learning_outcomes":["LO1", "LO2"],
+          "Assignment":["ABC Limited", "Edge Hill Coffee"],
+          "Volume":["1000 words", "4000 words"],
+          "weights":["30%", "60%"]
         }
       },
       {
-        "Name": "Research",
-        "Course":"Data Mining",
-        "Module": {
-          "Learning_outcomes":["LO1", "LO2"],
-          "Assignment":["CW1", "CW2"],
-          "Volume":["1000 words", "4000 words"],
-          "weights":["20%", "80%"]
+          "DegreeID": "3",
+          "Name": "Data Science",
+          "Los":"do maths stuff",
+          "Awards":"BSc in Data Science",
+          "Programme_leader":"Marcello Trovati",
+          "Start_date": "26/09/2024",
+          "Modules": {
+            "Learning_outcomes":["LO1", "LO2"],
+            "Assignment":["CW1", "CW2"],
+            "Volume":["1000 words", "4000 words"],
+            "weights":["20%", "80%"]
+          }
         }
+        ,
+      {
+          "DegreeID": "4",
+          "Name": "Programming",
+          "Los":"design code about how to save spaceships and other mad stuff",
+          "Awards":"BSc in Programming",
+          "Programme_leader":"Mohsin Raza",
+          "Start_date": "27/09/2024",
+          "Modules": {
+            "Learning_outcomes":["LO1", "LO2"],
+            "Assignment":["CW1", "CW2"],
+            "Volume":["1000 words", "4000 words"],
+            "weights":["20%", "80%"]
+          }
+        }
+],
+  "Assessments":
+  [
+    {
+      "Assessmentnumber": "1",
+      "Assessmenttitle": "Robot Juice",
+      "Loscovered":"design a website about bike oil",
+      "Volume":"4000 words",
+      "Weighting":"80%",
+      "Deadline":"28th of April 2023",
+      "Modules": "Accessible Web Design and Development"
+    },
+    {
+        "Assessmentnumber": "2",
+        "Assessmenttitle": "ABC Limited",
+        "Loscovered":"design a network that catches fire in cisco packet tracer",
+        "Volume":"1000 words",
+        "Weighting":"30%",
+        "Deadline":"24th of April 2023",
+        "Modules": "Digital World"
+      },
+      {
+        "Assessmentnumber": "3",
+        "Assessmenttitle": "Edge Hill Coffee",
+        "Loscovered":"watch the entire 19 minute coffee fella interview",
+        "Volume":"4000 words",
+        "Weighting":"60%",
+        "Deadline":"10th of January 2023",
+        "Modules": "Digital World"
+      },
+      {
+        "Assessmentnumber": "4",
+        "Assessmenttitle": "Java Calculator",
+        "Loscovered":"design a calculator in java that can devide by 0",
+        "Volume":"4000 words",
+        "Weighting":"60%",
+        "Deadline":"7th of may 2023",
+        "Modules": "Programming"
+      },
+      {
+        "Assessmentnumber": "5",
+        "Assessmenttitle": "JB Cars",
+        "Loscovered":"design a website about cars getting smashed and blown up",
+        "Volume":"2000 words",
+        "Weighting":"20%",
+        "Deadline":"28th of August 2023",
+        "Modules": "Accessible Web Design and Development"
       }
-      
-    ]
+]
+
 }

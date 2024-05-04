@@ -3,17 +3,17 @@
   <meta name ="viewport" content="width=device-width, initial-scale=1"/>
     <title>Coursework2_WebApp Create Assessment</title>
     <link rel="stylesheet" href="css/styles.css">
-  </head>
+  </head><!--this page is for academic staff to create a new assessmet-->
 <body>
 
   <header>
     <h1>Web Application Development Coursework 2 - Create a new Assessment</h1>
+    <h2>You are currently logged in as an Academic Staff Member</h2>
     <div id="navbar">
       <nav>
         <button id="home"><a href="index.html">Home</a></button>
-        <button id="degrees"><a href="degree.html">Degree Programmes</a></button>
-        <button id="modules"><a href="module.html">Modules</a></button>
-        <button id="assessmentsactive"><a href="assessment.html">Assessments</a></button>
+        <button id="login"><a href="login.html">Log Out</a></button>
+        <button id="assessments"><a href="assessment.html">Back to Assessments</a></button>
       </nav>
     </div>
     <form id="createassessmentform">
@@ -46,8 +46,8 @@
             <input type="text" name="assessmentmodules" />
         </div>
         <div>
-          <input type="submit" value="Submit" />
-          <input type="reset" value="Reset" />
+          <input type="submit" value="Submit" /><!--on submit js method to turn data into json is called-->
+          <input type="reset" value="Reset" /><!--clears all values from form-->
         </div>
       </form>
   <script src="createassessment.js"></script>

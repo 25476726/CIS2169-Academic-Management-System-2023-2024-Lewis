@@ -1,4 +1,4 @@
-'use strict';//this js isnt used in the project, its for the pokemon stuffs
+'use strict';
 
 /* global m */
 

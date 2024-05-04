@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Degree Programmes</title><!--main degree page for academic staff-->
+    <title>Degree Programmes</title><!--same as academic degree page except links -->
 </head>
 <body>
     <header>
         <h1>Web Application Development Coursework 2 - Degree Programmes</h1>
-        <h2>You are currently logged in as an Academic Staff Member</h2>
+        <h2>You are currently logged in as a Head of Department</h2>
         <div id="navbar">
           <nav>
             <button id="home"><a href="index.html">Home</a></button>
             <button id="login"><a href="login.html">Log Out</a></button>
-            <button id="degreesactive"><a href="degree.html">Degree Programmes</a></button><!--different class makes selected button green-->
-            <button id="modules"><a href="module.html">Modules</a></button>
-            <button id="assessments"><a href="assessment.html">Assessments</a></button>
+            <button id="degreesactive"><a href="headdegree.html">Degree Programmes</a></button>
+            <button id="modules"><a href="headmodule.html">Modules</a></button>
+            <button id="assessments"><a href="headassessment.html">Assessments</a></button>
           </nav>
         </div>
       </header>
@@ -24,7 +24,7 @@
         <h2>Degree Programmes</h2>
       <button id ="createdegreebtn"><a href="createdegree.html">Create a new Degree</a></button>
       <button id ="editdegreebtn"><a href="editdegree.html">Edit an existing Degree Programme</a></button>
-      <button id ="btn">Show all current Degrees</button><!--calls js function to pull in json degree data-->
+      <button id ="btn">Show all current Degrees</button>
       </div>
       <div id="degree-info"></div>  <!--  where json module data is to be displayed -->
       <script src="degree.js"></script>

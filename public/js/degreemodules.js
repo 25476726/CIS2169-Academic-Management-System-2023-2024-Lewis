@@ -1,8 +1,8 @@
 var pageCounter = 1;
-var moduleContainer = document.getElementById('module-info');
-var btn = document.getElementById("btn");//finds button in module info seciton
+var moduleContainer = document.getElementById('degree-module-info');
+var btn = document.getElementById("modbtn");
 
-btn.addEventListener("click", function(){//when button is clicked, all modules are displayed
+modbtn.addEventListener("click", function(){
   var ourRequest = new XMLHttpRequest();
   ourRequest.open('GET', 'module-'+ pageCounter +'.json');
   ourRequest.onload = function(){
@@ -13,15 +13,15 @@ btn.addEventListener("click", function(){//when button is clicked, all modules a
   };
   ourRequest.send();
 pageCounter++;
-if (pageCounter > 1){
+if (pageCounter > 3){
 //btn.classList.add("hide-me");
   btn.disabled = true;
-}//disables button after it is pressed
+}
 });
 
 function renderHTML(data){
   var htmlString = "";
-  htmlString += "<h1>Module Information:</h1>";//displayes module data in a formatted html string.
+
   for(i = 0; i < data.length; i++){
     htmlString += "<p>" + data[i].Course + " is an " + data[i].Name + " Module. It has assements "; //".</p>";
     for(ii = 0; ii < data[i].Module.Assignment.length; ii++){
@@ -57,9 +57,8 @@ function renderHTML(data){
         htmlString += " and " + data[i].Module.weights[ii];
       }
     }
-    htmlString += ' of your overall grades for the Module. The Module leader of the ' + data[i].Course + ' module is '+ data[i].Module.Module_leader +' </p>';
+    htmlString += ' of your overall grades for the Module.</p>';
   }
-  htmlString += "<button><a href=''>Hide all current Modules</a></button>"; //reloads the page so modules are not showing
   moduleContainer.insertAdjacentHTML('beforeend', htmlString);
 
 }

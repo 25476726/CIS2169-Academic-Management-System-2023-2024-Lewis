@@ -1,6 +1,54 @@
 [
   {
     "Name": "Undergraduate",
+    "Course":"Digital World",
+    "Module": {
+      "Num_hours": "16",
+      "Num_credits": "20",
+      "Module_leader": "Shirley",
+      "Module_start": "01/01/2022",
+      "Reg_times": "Yes",
+      "Degrees_assigned": "web dnd",
+      "Learning_outcomes":["LO1", "LO2"],
+      "Assignment":["CW1", "CW2"],
+      "Volume":["1000 words", "4000 words"],
+      "weights":["40%", "60%"]
+    }
+  },
+  {
+    "Name": "Undergraduate",
+    "Course":"Accessible Web Design and Development",
+    "Module": {
+      "Num_hours": "16",
+      "Num_credits": "20",
+      "Module_leader": "Dave and Dan",
+      "Module_start": "01/01/2022",
+      "Reg_times": "Yes",
+      "Degrees_assigned": "web dnd",
+      "Learning_outcomes":["LO1", "LO2"],
+      "Assignment":["CW1", "CW2"],
+      "Volume":["1000 words", "4000 words"],
+      "weights":["40%", "60%"]
+    }
+  },
+  {
+    "Name": "Undergraduate",
+    "Course":"Programming",
+    "Module": {
+      "Num_hours": "16",
+      "Num_credits": "20",
+      "Module_leader": "Mohsin Raza",
+      "Module_start": "01/01/2022",
+      "Reg_times": "Yes",
+      "Degrees_assigned": "web dnd",
+      "Learning_outcomes":["LO1", "LO2"],
+      "Assignment":["CW1", "CW2"],
+      "Volume":["1000 words", "4000 words"],
+      "weights":["40%", "60%"]
+    }
+  },
+  {
+    "Name": "Undergraduate",
     "Course":"Web Development",
     "Module": {
       "Num_hours": "16",

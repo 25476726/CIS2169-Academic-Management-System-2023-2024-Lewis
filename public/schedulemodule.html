@@ -1,0 +1,44 @@
+<html>
+<head>
+  <meta name ="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Coursework2_WebApp Assign Module Time Slots</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head><!--head of departments schedule page.-->
+<body>
+
+  <header>
+    <h1>Web Application Development Coursework 2 - Assign Module Time Slots</h1>
+    <h2>You are currently logged in as a Head of Department</h2>
+    <div id="navbar">
+      <nav>
+        <button id="home"><a href="index.html">Home</a></button>
+        <button id="login"><a href="login.html">Log Out</a></button>
+        <button id="modules"><a href="headmodule.html">Back to Modules</a></button>
+      </nav>
+    </div>
+    <form id="assignmoduletimeform">
+        <div>
+          <label>Enter Module Number which is being assigned</label>
+          <input type="number" name="assignmodulenumber" />
+        </div>
+        <div>
+            <label>Enter Module Time Slots</label>
+            <input type="text" name="moduletimeslots" />
+        </div>
+        <div>
+          <label>Enter Module Room</label>
+          <input type="text" name="moduleroom" />
+        </div>
+        <div>
+          <label>Enter If Module Timeslots Regular</label>
+          <input type="checkbox" name="moduleregtimeassign" />
+          <label>Yes</label>
+        </div>
+        <div>
+          <input type="submit" value="Submit" /><!--calls js function to turn data into json-->
+          <input type="reset" value="Reset" /><!--clears all values-->
+        </div>
+      </form>
+  <script src="assignmodule.js"></script>
+</body>
+</html>
